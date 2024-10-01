@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Windows子系统WSL访问本地储存</title>
+      <link href="/2024/10/01/Windows%E5%AD%90%E7%B3%BB%E7%BB%9FWSL%E8%AE%BF%E9%97%AE%E6%9C%AC%E5%9C%B0%E5%82%A8%E5%AD%98/"/>
+      <url>/2024/10/01/Windows%E5%AD%90%E7%B3%BB%E7%BB%9FWSL%E8%AE%BF%E9%97%AE%E6%9C%AC%E5%9C%B0%E5%82%A8%E5%AD%98/</url>
+      
+        <content type="html"><![CDATA[<h2 id="WSL访问本地磁盘"><a class="header-anchor" href="#WSL访问本地磁盘">¶</a>WSL访问本地磁盘</h2><p>访问D盘：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /mnt/d</span><br></pre></td></tr></table></figure><h2 id="WSL访问外置储存设备"><a class="header-anchor" href="#WSL访问外置储存设备">¶</a>WSL访问外置储存设备</h2><p>挂载储存设备(假设储存设备在Windows中显示的盘符为F)：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> <span class="built_in">mkdir</span> /mnt/f</span><br><span class="line"><span class="built_in">sudo</span> mount -t drvfs F: /mnt/f</span><br></pre></td></tr></table></figure><p>无需使用后需手动取消挂载再弹出设备：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> umount /mnt/f</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Windows子系统WSL挂载U盘</title>
       <link href="/2024/10/01/Windows%E5%AD%90%E7%B3%BB%E7%BB%9FWSL%E6%8C%82%E8%BD%BDU%E7%9B%98/"/>
       <url>/2024/10/01/Windows%E5%AD%90%E7%B3%BB%E7%BB%9FWSL%E6%8C%82%E8%BD%BDU%E7%9B%98/</url>
