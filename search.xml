@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Windows安装adb命令行环境</title>
+      <link href="/2024/10/01/Windows%E5%AE%89%E8%A3%85adb%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%8E%AF%E5%A2%83/"/>
+      <url>/2024/10/01/Windows%E5%AE%89%E8%A3%85adb%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%8E%AF%E5%A2%83/</url>
+      
+        <content type="html"><![CDATA[<p><strong>1，下载SDK Platform-Tools(无需魔法)</strong></p><p><a href="https://developer.android.google.cn/tools/releases/platform-tools?hl=zh-cn">SDK 平台工具版本说明  |  Android Studio  |  Android Developers</a></p><p><img src="F:%5Cdezigenb%5Chexo-blog%5Csource_posts%5CWindows%E5%AE%89%E8%A3%85adb%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%8E%AF%E5%A2%83%5C%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-24%20184837.png" alt=""></p><p><img src="F:%5Cdezigenb%5Chexo-blog%5Csource_posts%5CWindows%E5%AE%89%E8%A3%85adb%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%8E%AF%E5%A2%83%5C%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-24%20184950.png" alt=""></p><p><strong>2，将下载的压缩包解压到想要存放的路径中（推荐C:\Program Files\platform-tools），并复制该路径</strong></p><p><img src="F:%5Cdezigenb%5Chexo-blog%5Csource_posts%5CWindows%E5%AE%89%E8%A3%85adb%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%8E%AF%E5%A2%83%5C%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-24%20185354.png" alt=""></p><p><strong>3，打开高级系统设置，设置环境变量</strong></p><p><img src="F:%5Cdezigenb%5Chexo-blog%5Csource_posts%5CWindows%E5%AE%89%E8%A3%85adb%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%8E%AF%E5%A2%83%5C%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-24%20185556.png" alt=""></p><p><img src="F:%5Cdezigenb%5Chexo-blog%5Csource_posts%5CWindows%E5%AE%89%E8%A3%85adb%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%8E%AF%E5%A2%83%5C2024-10-24-18-59-23-image.png" alt=""></p><p><strong>4，在系统变量Path中加入刚才复制的路径</strong></p><p><img src="F:%5Cdezigenb%5Chexo-blog%5Csource_posts%5CWindows%E5%AE%89%E8%A3%85adb%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%8E%AF%E5%A2%83%5C2024-10-24-19-02-02-image.png" alt=""></p><p><img src="F:%5Cdezigenb%5Chexo-blog%5Csource_posts%5CWindows%E5%AE%89%E8%A3%85adb%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%8E%AF%E5%A2%83%5C2024-10-24-19-02-50-image.png" alt=""></p><p><strong>5，然后一路点击确定关闭所有窗口</strong></p><p><strong>6，验证是否安装成功</strong></p><p>在cmd或powershell中输入adb version，如出现版本号等信息，即为安装成功</p><p><img src="F:%5Cdezigenb%5Chexo-blog%5Csource_posts%5CWindows%E5%AE%89%E8%A3%85adb%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%8E%AF%E5%A2%83%5C2024-10-24-19-04-32-image.png" alt=""></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Windows子系统WSL访问本地储存</title>
       <link href="/2024/10/01/Windows%E5%AD%90%E7%B3%BB%E7%BB%9FWSL%E8%AE%BF%E9%97%AE%E6%9C%AC%E5%9C%B0%E5%82%A8%E5%AD%98/"/>
       <url>/2024/10/01/Windows%E5%AD%90%E7%B3%BB%E7%BB%9FWSL%E8%AE%BF%E9%97%AE%E6%9C%AC%E5%9C%B0%E5%82%A8%E5%AD%98/</url>
